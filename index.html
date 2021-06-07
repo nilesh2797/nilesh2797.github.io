@@ -105,14 +105,26 @@
 		<td width="33%" valign="top" align="center"><a href="pubs/Gupta20.pdf" target="_blank"><img src="images/xc.jpg" alt="NED" width="100%" style="border-radius:15px"></a></td>
 		<td width="67%" valign="top">
 			<p>
-				<a href="pubs/Gupta20.pdf" target="_blank" id="Gupta20">
+				<a href="pubs/Gupta21.pdf" target="_blank" id="Gupta21">
 				<img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> 
 				<heading>Generalized Zero-Shot Extreme Multi-label Learning</heading></a><br>
 				<strong>Nilesh Gupta</strong>, Sakina Bohra, <a href="https://vervenumen.github.io" target="_blank">Yashoteja Prabhu</a>, Saurabh Purohit and <a href="http://manikvarma.org" target="_blank">Manik Varma</a><br>
 				ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), 2021 <br>
 			</p>	
-			<div class="paper" id="gupta20">
-				Coming Soon!
+			<div class="paper" id="gupta21">
+				<a href="javascript:toggleblock('gupta21abs')">abstract</a> /
+				<a shape="rect" href="javascript:togglebib('gupta21')" class="togglebib">bibtex</a>
+				<p align="justify" > <i id="gupta21abs">Extreme Multi-label Learning (XML) involves assigning the subset of most relevant labels to a data point from millions of label choices. A hitherto unaddressed challenge in XML is that of predicting unseen labels with no training points. These form a significant fraction of total labels and contain fresh and personalized information desired by the users. Most existing extreme classifiers are not equipped for zero-shot label prediction and hence fail to leverage unseen labels. As a remedy, this paper proposes a novel approach called ZestXML for the task of Generalized Zero-shot XML (GZXML) where relevant labels have to be chosen from all available seen and unseen labels. ZestXML learns to project a data point’s features close to the features of its relevant labels through a highly sparsified linear transform. This 𝐿0-constrained linear map between the two high-dimensional feature vectors is tractably recovered through a novel optimizer based on Matching Pursuit. By effectively leveraging the sparsities in features, labels, and the learned model, ZestXML achieves higher accuracy and smaller model size than existing XML approaches while also promoting efficient training & prediction, real-time label update as well as explainable prediction. Experiments on large-scale GZXML datasets demonstrated that ZestXML can be up to 14% and 10% more accurate than state-of-the-art extreme classifiers and leading BERT-based dense retrievers respectively while having a 10x smaller model size. ZestXML trains on largest dataset with 31M labels in just ~30 hours on a single core of a commodity desktop. When added to a large ensemble of existing models in Bing Sponsored Search Advertising, ZestXML significantly improved click yield of IR based system by 17% and unseen query coverage by 3.4% respectively. ZestXML’s source code and benchmark datasets for GZXML will be publically released for research purposes.</i></p>
+<pre xml:space="preserve">
+@InProceedings{Gupta21,
+  author    = {Gupta, Nilesh and Bohra, Sakina and 
+    Prabhu, Yashoteja and Purohit, Saurabh and Varma, Manik},
+  title     = {Generalized Zero-Shot Extreme Multi-label Learning},
+  booktitle = {Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery & Data Mining},
+  month     = {August},
+  year      = {2021},
+}
+</pre>
 			</div>
 		</td>
 	</tr>
@@ -143,7 +155,7 @@
 
 <pre xml:space="preserve">
 @InProceedings{Prabhu20,
-  author    = {Prabhu, Prabhu and Kusupati, Aditya and 
+  author    = {Prabhu, Yashoteja and Kusupati, Aditya and 
     Gupta, Nilesh and Varma, Manik},
   title     = {Extreme Regression for Dynamic 
     Search Advertising},
@@ -216,6 +228,9 @@ hideallbibs();
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('gupta19abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('gupta21abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('acknowledgements');
