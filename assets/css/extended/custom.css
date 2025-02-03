@@ -42,6 +42,7 @@ a {
     /* background: rgba(191, 87, 0, 1); */
     color: rgba(191, 87, 0, 1);
     padding: 2px 12px;
+    margin-top: 8px;
     margin-right: 8px;
     border-radius: var(--radius);
     text-decoration: none;
