@@ -1,4 +1,4 @@
-baseURL: "https://nilesh2797.github.io/hugo-webpage-github"
+baseURL: "https://nilesh2797.github.io/"
 title: Nilesh Gupta
 paginate: 10
 theme: PaperMod
@@ -25,14 +25,14 @@ params:
   defaultTheme: light # dark, light, auto
   disableThemeToggle: false
 
-  ShowReadingTime: false
+  ShowReadingTime: true
   ShowVenue: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: false
-  ShowRssButtonInSectionTermList: false
+  ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false

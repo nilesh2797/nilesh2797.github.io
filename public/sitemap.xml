@@ -2,76 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/hugo-webpage-github/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/publications/language_specific_llms/</loc>
+    <loc>http://localhost:1313/publications/language_specific_llms/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/llm/</loc>
+    <loc>http://localhost:1313/tags/llm/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/multilingualism/</loc>
+    <loc>http://localhost:1313/tags/multilingualism/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/nlp/</loc>
+    <loc>http://localhost:1313/tags/nlp/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/publications/</loc>
+    <loc>http://localhost:1313/publications/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/categories/publications/</loc>
+    <loc>http://localhost:1313/categories/publications/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/categories/bio/</loc>
+    <loc>http://localhost:1313/categories/bio/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/publications/dexml/</loc>
+    <loc>http://localhost:1313/publications/dexml/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/encoder/</loc>
+    <loc>http://localhost:1313/tags/encoder/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/extreme-classification/</loc>
+    <loc>http://localhost:1313/tags/extreme-classification/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/iclr/</loc>
+    <loc>http://localhost:1313/tags/iclr/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/info/</loc>
+    <loc>http://localhost:1313/tags/info/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/information-retrieval/</loc>
+    <loc>http://localhost:1313/tags/information-retrieval/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/service/</loc>
+    <loc>http://localhost:1313/service/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/publications/ngame/</loc>
+    <loc>http://localhost:1313/publications/ngame/</loc>
     <lastmod>2023-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/wsdm/</loc>
+    <loc>http://localhost:1313/tags/wsdm/</loc>
     <lastmod>2023-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/publications/elias/</loc>
+    <loc>http://localhost:1313/publications/elias/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/neurips/</loc>
+    <loc>http://localhost:1313/tags/neurips/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/publications/zestxml/</loc>
+    <loc>http://localhost:1313/publications/zestxml/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/tags/kdd/</loc>
+    <loc>http://localhost:1313/tags/kdd/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-webpage-github/publications/xreg/</loc>
+    <loc>http://localhost:1313/publications/xreg/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
 </urlset>

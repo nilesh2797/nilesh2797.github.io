@@ -12,6 +12,8 @@ links:
     url: "https://github.com/nilesh2797/dexml"
   - text: "Bibtex"
     url: "/publications/dexml/#cite"
+  - text: OpenReview
+    url: "https://openreview.net/forum?id=dNe1T0Ahby&noteId=CgWpVRskSQ"
 tags: ["information-retrieval", "Encoder", "extreme-classification", "ICLR"]
 categories: ["Publications"]
 series: ["Publications"]

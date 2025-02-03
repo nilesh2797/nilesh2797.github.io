@@ -12,6 +12,8 @@ links:
     url: "https://github.com/atutej/token-language-adaptation"
   - text: "Bibtex"
     url: "/publications/language_specific_llms/#cite"
+  - text: "OpenReview"
+    url: "https://openreview.net/forum?id=UIY5Ypx6fx"
 tags: ["LLM", "NLP", "Multilingualism"]
 categories: ["Publications"]
 series: ["Publications"]
