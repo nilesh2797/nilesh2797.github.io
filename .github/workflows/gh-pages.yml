@@ -58,7 +58,7 @@ jobs:
       - name: Build with Hugo
         run: |
           hugo \
-            --config config.yml
+            --config config.yml \
             --buildDrafts --gc --minify \
             --baseURL ${{ steps.pages.outputs.base_url }}
       - name: Upload artifact
