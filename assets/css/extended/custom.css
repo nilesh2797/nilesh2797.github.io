@@ -8,14 +8,14 @@
 /* Apply font to all text elements */
 body, 
 h1, h2, h3, h4, h5, h6, 
-p, span, a, 
+p, a, 
 .archive-meta, .entry-content, .page-content, .page-footnote, 
 #menu, .pagination, .post-meta, .footer {
     font-family: 'Optima', sans-serif;
 }
 
 body {
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 /* Ensure logo uses the font */
@@ -30,5 +30,55 @@ a {
 }
 
 .highlight, pre.chroma, code {
-    font-family: 'Arial', monospace !important;
+    font-family: 'Courier New', monospace !important;
 }
+
+.entry-links {
+    margin-top: 10px;
+  }
+  
+.link-chip {
+    display: inline-flex;
+    /* background: rgba(191, 87, 0, 1); */
+    color: rgba(191, 87, 0, 1);
+    padding: 2px 12px;
+    margin-right: 8px;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    background: var(--code-bg);
+    border: 1.5px solid var(--border);
+    transition: background 0.3s;
+    pointer-events: inherit; /* Disable click events on the entire chip */
+    z-index: 100000; /* Raises above the absolute .entry-link */
+}
+
+.link-chip:hover {
+  background-color: var(--theme);
+}
+
+/* .link-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+} */
+
+/* .link-tags a {
+    border-radius: var(--radius);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+} */
+
+/* .link-tags a {
+    display: block;
+    padding: 0 14px;
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 34px;
+    background: var(--code-bg);
+} */
+
+/* .link-tags a:hover {
+    background: var(--border);
+} */

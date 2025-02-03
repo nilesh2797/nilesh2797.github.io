@@ -5,6 +5,13 @@ date: "2025-02-02"
 venue: "EMNLP 2024"
 description: ""
 summary: "This paper examines how adapting LLMs with vocabulary extension and pretraining improves efficiency and performance across languages"
+links:
+  - text: "Paper"
+    url: "https://arxiv.org/abs/2406.14670"
+  - text: "Code"
+    url: "https://github.com/atutej/token-language-adaptation"
+  - text: "Bibtex"
+    url: "/publications/language_specific_llms/#cite"
 tags: ["Language-Specific LLMs", "Efficient Adaptation", "Multilingualism"]
 categories: ["Publications"]
 series: ["Publications"]
@@ -12,8 +19,6 @@ ShowToc: true
 TocOpen: false
 draft: false
 ---
-
-[Paper](https://arxiv.org/abs/2406.14670) | [Code](https://github.com/atutej/token-language-adaptation)
 
 ### About
 
