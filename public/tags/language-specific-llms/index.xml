@@ -11,14 +11,6 @@
     </image>
     <generator>Hugo -- 0.126.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/hugo-webpage-github/tags/language-specific-llms/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Exploring Design Choices for Building Language-Specific LLMs</title>
-      <link>http://localhost:1313/hugo-webpage-github/publications/language_specific_llms/</link>
-      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-webpage-github/publications/language_specific_llms/</guid>
-      <description>This paper examines how adapting LLMs with vocabulary extension and pretraining improves efficiency and performance across languages</description>
-    </item>
   </channel>
 </rss>

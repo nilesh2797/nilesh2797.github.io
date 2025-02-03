@@ -14,17 +14,10 @@
     <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/hugo-webpage-github/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Efficient Adaptation</title>
-      <link>http://localhost:1313/hugo-webpage-github/tags/efficient-adaptation/</link>
+      <title>LLM</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/llm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-webpage-github/tags/efficient-adaptation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Language-Specific LLMs</title>
-      <link>http://localhost:1313/hugo-webpage-github/tags/language-specific-llms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-webpage-github/tags/language-specific-llms/</guid>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/llm/</guid>
       <description></description>
     </item>
     <item>
@@ -32,6 +25,13 @@
       <link>http://localhost:1313/hugo-webpage-github/tags/multilingualism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/hugo-webpage-github/tags/multilingualism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NLP</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/nlp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/nlp/</guid>
       <description></description>
     </item>
     <item>

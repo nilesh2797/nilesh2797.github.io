@@ -3,7 +3,7 @@ author: [""]
 title: "Professional Service"
 date: "2024-05-19"
 venue: ""
-description: ""
+summary: "A brief list of my positions in service"
 tags: ["info"]
 categories: ["Bio"]
 series: ["Bio"]

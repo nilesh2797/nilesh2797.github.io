@@ -12,7 +12,7 @@ links:
     url: "https://github.com/atutej/token-language-adaptation"
   - text: "Bibtex"
     url: "/publications/language_specific_llms/#cite"
-tags: ["Language-Specific LLMs", "Efficient Adaptation", "Multilingualism"]
+tags: ["LLM", "NLP", "Multilingualism"]
 categories: ["Publications"]
 series: ["Publications"]
 ShowToc: true   
