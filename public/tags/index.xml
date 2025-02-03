@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Nilesh Gupta</title>
+    <link>http://localhost:1313/hugo-webpage-github/tags/</link>
+    <description>Recent content in Tags on Nilesh Gupta</description>
+    <image>
+      <title>Nilesh Gupta</title>
+      <url>http://localhost:1313/hugo-webpage-github/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/hugo-webpage-github/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.126.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-webpage-github/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Efficient Adaptation</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/efficient-adaptation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/efficient-adaptation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Language-Specific LLMs</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/language-specific-llms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/language-specific-llms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multilingualism</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/multilingualism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/multilingualism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Encoder</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/encoder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/encoder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Extreme-Classification</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/extreme-classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/extreme-classification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ICLR</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/iclr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/iclr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Info</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/info/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Information-Retrieval</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/information-retrieval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/information-retrieval/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WSDM</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/wsdm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/wsdm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NeurIPS</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/neurips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/neurips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KDD</title>
+      <link>http://localhost:1313/hugo-webpage-github/tags/kdd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/tags/kdd/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Papers on Nilesh Gupta</title>
+    <link>https://nilesh2797.github.io/hugo-webpage-github/papers/</link>
+    <description>Recent content in Papers on Nilesh Gupta</description>
+    <image>
+      <title>Nilesh Gupta</title>
+      <url>https://nilesh2797.github.io/hugo-webpage-github/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://nilesh2797.github.io/hugo-webpage-github/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.126.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nilesh2797.github.io/hugo-webpage-github/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dual-encoders for Extreme Multi-label Classification</title>
+      <link>https://nilesh2797.github.io/hugo-webpage-github/papers/dexml/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://nilesh2797.github.io/hugo-webpage-github/papers/dexml/</guid>
+      <description>Dual-encoder (DE) models are widely used in retrieval tasks, most commonly studied on open QA benchmarks that are often characterized by multi-class and limited training data. In contrast, their performance in multi-label and data-rich retrieval settings like extreme multi-label classification (XMC), remains under-explored. Current empirical evidence indicates that DE models fall significantly short on XMC benchmarks, where SOTA methods (Dahiya et al., 2023a;b) linearly scale the number of learnable parameters with the total number of classes (documents in the corpus) by employing per-class classification head. To this end, we first study and highlight that existing multi-label contrastive training losses are not appropriate for training DE models on XMC tasks. We propose decoupled softmax loss – a simple modification to the InfoNCE loss – that overcomes the limitations of existing contrastive losses. We further extend our loss design to a soft top-k operator-based loss which is tailored to optimize top-k prediction performance. When trained with our proposed loss functions, standard DE models alone can match or outperform SOTA methods by up to 2% at Precision@1 even on the largest XMC datasets while being 20× smaller in terms of the number of trainable parameters. This leads to more parameter-efficient and universally applicable solutions for retrieval tasks.</description>
+    </item>
+    <item>
+      <title>NGAME: Negative Mining aware Mini-batching for Extreme Classification</title>
+      <link>https://nilesh2797.github.io/hugo-webpage-github/papers/ngame/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://nilesh2797.github.io/hugo-webpage-github/papers/ngame/</guid>
+      <description>Dual-encoder (DE) models are widely used in retrieval tasks, most commonly studied on open QA benchmarks that are often characterized by multi-class and limited training data. In contrast, their performance in multi-label and data-rich retrieval settings like extreme multi-label classification (XMC), remains under-explored. Current empirical evidence indicates that DE models fall significantly short on XMC benchmarks, where SOTA methods (Dahiya et al., 2023a;b) linearly scale the number of learnable parameters with the total number of classes (documents in the corpus) by employing per-class classification head. To this end, we first study and highlight that existing multi-label contrastive training losses are not appropriate for training DE models on XMC tasks. We propose decoupled softmax loss – a simple modification to the InfoNCE loss – that overcomes the limitations of existing contrastive losses. We further extend our loss design to a soft top-k operator-based loss which is tailored to optimize top-k prediction performance. When trained with our proposed loss functions, standard DE models alone can match or outperform SOTA methods by up to 2% at Precision@1 even on the largest XMC datasets while being 20× smaller in terms of the number of trainable parameters. This leads to more parameter-efficient and universally applicable solutions for retrieval tasks.</description>
+    </item>
+    <item>
+      <title>ELIAS: End-to-end Learning to Search and Index in Large Output Spaces</title>
+      <link>https://nilesh2797.github.io/hugo-webpage-github/papers/elias/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://nilesh2797.github.io/hugo-webpage-github/papers/elias/</guid>
+      <description>Dual-encoder (DE) models are widely used in retrieval tasks, most commonly studied on open QA benchmarks that are often characterized by multi-class and limited training data. In contrast, their performance in multi-label and data-rich retrieval settings like extreme multi-label classification (XMC), remains under-explored. Current empirical evidence indicates that DE models fall significantly short on XMC benchmarks, where SOTA methods (Dahiya et al., 2023a;b) linearly scale the number of learnable parameters with the total number of classes (documents in the corpus) by employing per-class classification head. To this end, we first study and highlight that existing multi-label contrastive training losses are not appropriate for training DE models on XMC tasks. We propose decoupled softmax loss – a simple modification to the InfoNCE loss – that overcomes the limitations of existing contrastive losses. We further extend our loss design to a soft top-k operator-based loss which is tailored to optimize top-k prediction performance. When trained with our proposed loss functions, standard DE models alone can match or outperform SOTA methods by up to 2% at Precision@1 even on the largest XMC datasets while being 20× smaller in terms of the number of trainable parameters. This leads to more parameter-efficient and universally applicable solutions for retrieval tasks.</description>
+    </item>
+    <item>
+      <title>Generalized Zero-shot Extreme Multi-label Classification</title>
+      <link>https://nilesh2797.github.io/hugo-webpage-github/papers/zestxml/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://nilesh2797.github.io/hugo-webpage-github/papers/zestxml/</guid>
+      <description>Dual-encoder (DE) models are widely used in retrieval tasks, most commonly studied on open QA benchmarks that are often characterized by multi-class and limited training data. In contrast, their performance in multi-label and data-rich retrieval settings like extreme multi-label classification (XMC), remains under-explored. Current empirical evidence indicates that DE models fall significantly short on XMC benchmarks, where SOTA methods (Dahiya et al., 2023a;b) linearly scale the number of learnable parameters with the total number of classes (documents in the corpus) by employing per-class classification head. To this end, we first study and highlight that existing multi-label contrastive training losses are not appropriate for training DE models on XMC tasks. We propose decoupled softmax loss – a simple modification to the InfoNCE loss – that overcomes the limitations of existing contrastive losses. We further extend our loss design to a soft top-k operator-based loss which is tailored to optimize top-k prediction performance. When trained with our proposed loss functions, standard DE models alone can match or outperform SOTA methods by up to 2% at Precision@1 even on the largest XMC datasets while being 20× smaller in terms of the number of trainable parameters. This leads to more parameter-efficient and universally applicable solutions for retrieval tasks.</description>
+    </item>
+    <item>
+      <title>Extreme Regression for Dynamic Search Advertising</title>
+      <link>https://nilesh2797.github.io/hugo-webpage-github/papers/xreg/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://nilesh2797.github.io/hugo-webpage-github/papers/xreg/</guid>
+      <description>Dual-encoder (DE) models are widely used in retrieval tasks, most commonly studied on open QA benchmarks that are often characterized by multi-class and limited training data. In contrast, their performance in multi-label and data-rich retrieval settings like extreme multi-label classification (XMC), remains under-explored. Current empirical evidence indicates that DE models fall significantly short on XMC benchmarks, where SOTA methods (Dahiya et al., 2023a;b) linearly scale the number of learnable parameters with the total number of classes (documents in the corpus) by employing per-class classification head. To this end, we first study and highlight that existing multi-label contrastive training losses are not appropriate for training DE models on XMC tasks. We propose decoupled softmax loss – a simple modification to the InfoNCE loss – that overcomes the limitations of existing contrastive losses. We further extend our loss design to a soft top-k operator-based loss which is tailored to optimize top-k prediction performance. When trained with our proposed loss functions, standard DE models alone can match or outperform SOTA methods by up to 2% at Precision@1 even on the largest XMC datasets while being 20× smaller in terms of the number of trainable parameters. This leads to more parameter-efficient and universally applicable solutions for retrieval tasks.</description>
+    </item>
+  </channel>
+</rss>

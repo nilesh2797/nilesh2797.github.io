@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Optima&display=swap'); /* Optional if using a web version */
+
+:root {
+    --body-font: 'Optima', sans-serif;
+    --heading-font: 'Optima', sans-serif;
+}
+
+/* Apply font to all text elements */
+body, 
+h1, h2, h3, h4, h5, h6, 
+p, span, a, 
+.archive-meta, .entry-content, .page-content, .page-footnote, 
+#menu, .pagination, .post-meta, .footer {
+    font-family: 'Optima', sans-serif;
+}
+
+body {
+    font-size: 0.9em;
+}
+
+/* Ensure logo uses the font */
+.logo a {
+    font-family: 'Optima', sans-serif !important;
+    font-size: 2.0em;
+}
+
+/* Change color of regular links */
+a {
+    color: rgba(191, 87, 0, 1); /* Replace with your desired color (hex, rgb, or named color) */
+}
+
+.highlight, pre.chroma, code {
+    font-family: 'Arial', monospace !important;
+}

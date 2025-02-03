@@ -1,0 +1,161 @@
+baseURL: "https://nilesh2797.github.io/hugo-webpage-github"
+title: Nilesh Gupta
+paginate: 10
+theme: PaperMod
+# relativeURLs: true
+
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: development # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Nilesh Gupta
+  description: "Nilesh Gupta Webpage"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: light # dark, light, auto
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowVenue: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Nilesh Gupta"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ""
+    subtitle: ""
+    imageUrl: "./media/me2.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Nilesh Gupta
+    buttons:
+      - name: Publications
+        url: papers
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    imageUrl: "./media/me2.jpg"
+    imageWidth: 130
+    imageHeight: 130
+    imageTitle: Nilesh Gupta
+    Title: ""
+    Content: 'I am a CS PhD Student at [UT Austin](https://utexas.edu) advised by [Prof. Inderjit Dhillon](https://cs.utexas.edu/~inderjit). 
+I also work closely with [Dr. Prateek Jain](https://www.prateekjain.org/) at [Google Deepmind](https://deepmind.google/). 
+My current research interests include **End-to-end Information Retrieval** and its applications to **Efficient Large Language Models**.
+Before joining my PhD, I spent 2 years at Microsoft Research India working with [Dr. Manik Varma](https://manikvarma.org) on algorithms and applications of Extreme Classification. 
+I completed my undergraduate with Honours in CS from [IIT Bombay](https://www.iitb.ac.in).'
+    Update: '- I am interning at Google Research New York with [Felix Yu](https://felixyu.org/) for Fall 2024 on In-context Information Retrieval with LLMs'
+  socialIcons:
+    - name: email
+      url: "mailto:nilesh@cs.utexas.edu"
+    - name: x
+      url: "https://x.com/convexlull"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=WDF2ldUAAAAJ&hl=en"
+    - name: github
+      url: "https://github.com/nilesh2797"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/nilesh2797/hugo-webpage-github/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: Publications
+      name: Publications
+      url: publications
+      weight: 10
+    - identifier: Blogs
+      name: Blogs
+      url: blogs
+      weight: 20
+    - identifier: Service
+      name: Service
+      url: service
+      weight: 30
+    - identifier: CV
+      name: CV
+      url: ./CV.pdf
+      weight: 40
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 20
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai

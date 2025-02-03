@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Information-Retrieval on Nilesh Gupta</title>
+    <link>http://localhost:1313/hugo-webpage-github/tags/information-retrieval/</link>
+    <description>Recent content in Information-Retrieval on Nilesh Gupta</description>
+    <image>
+      <title>Nilesh Gupta</title>
+      <url>http://localhost:1313/hugo-webpage-github/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/hugo-webpage-github/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.126.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-webpage-github/tags/information-retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dual-encoders for Extreme Multi-label Classification</title>
+      <link>http://localhost:1313/hugo-webpage-github/publications/dexml/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/publications/dexml/</guid>
+      <description>A parameter efficient encoder only model for multi-shot retrieval (aka extreme classification)</description>
+    </item>
+    <item>
+      <title>NGAME: Negative Mining aware Mini-batching for Extreme Classification</title>
+      <link>http://localhost:1313/hugo-webpage-github/publications/ngame/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/publications/ngame/</guid>
+      <description>A light-weight mini-batch creation technique that offers provably accurate in-batch negative samples for training retrieval models. This allows training with larger mini-batches offering significantly faster convergence and higher accuracies than existing negative sampling techniques.</description>
+    </item>
+    <item>
+      <title>ELIAS: End-to-end Learning to Search and Index in Large Output Spaces</title>
+      <link>http://localhost:1313/hugo-webpage-github/publications/elias/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/publications/elias/</guid>
+      <description>Learnable graph-based search index for classification/retrieval in large output space, scalable to label space on a single A100 GPU, achieves SOTA on multiple large-scale extreme classification benchmarks</description>
+    </item>
+    <item>
+      <title>Generalized Zero-shot Extreme Multi-label Classification</title>
+      <link>http://localhost:1313/hugo-webpage-github/publications/zestxml/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/publications/zestxml/</guid>
+      <description>This paper proposes Generalized Zero-shot XML (GZXML), a paradigm where the task is to tag a data point with the most relevant labels from a large universe of both seen and unseen labels.</description>
+    </item>
+    <item>
+      <title>Extreme Regression for Dynamic Search Advertising</title>
+      <link>http://localhost:1313/hugo-webpage-github/publications/xreg/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-webpage-github/publications/xreg/</guid>
+      <description>This paper introduces a new learning paradigm called eXtreme Regression (XR) whose objective is to accurately predict the numerical degrees of relevance of an extremely large number of labels to a data point. XR can provide elegant solutions to many large-scale ranking and recommendation applications including Dynamic Search Advertising (DSA).</description>
+    </item>
+  </channel>
+</rss>
