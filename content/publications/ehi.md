@@ -1,5 +1,5 @@
 ---
-author: ["Ramnath Kumar", "Anshul Mittal", "*Nilesh Gupta*", "Aditya Kusupati", "Inderjit S. Dhillon", "Prateek Jain"]
+author: ["Ramnath Kumar", "Anshul Mittal", "++Nilesh Gupta++", "Aditya Kusupati", "Inderjit S. Dhillon", "Prateek Jain"]
 title: "EHI: End-to-end Learning of Hierarchical Index for Efficient Dense Retrieval"
 date: "2024-08-01"
 venue: "TMLR 2024"

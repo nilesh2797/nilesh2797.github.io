@@ -1,5 +1,5 @@
 ---
-author: ["Yashoteja Prabhu", "Aditya Kusupati", "*Nilesh Gupta*", "Manik Varma"]
+author: ["Yashoteja Prabhu", "Aditya Kusupati", "++Nilesh Gupta++", "Manik Varma"]
 title: "Extreme Regression for Dynamic Search Advertising"
 date: "2020-05-19"
 venue: "WSDM 2020"

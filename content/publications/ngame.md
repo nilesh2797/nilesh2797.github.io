@@ -1,5 +1,5 @@
 ---
-author: ["Kunal Dahiya*", "*Nilesh Gupta**", Deepak Saini*, Akshay Soni, Yajun Wang, Kushal Dave, Jian Jiao, Gururaj K, Prasenjit Dey, Amit Singh, Deepesh Hada, Vidit Jain, Bhawna Paliwal, Anshul Mittal, Sonu Mehta, Ramachandran Ramjee, Sumeet Agarwal, Purushottam Kar, Manik Varma]
+author: ["Kunal Dahiya*", "++Nilesh Gupta++*", "Deepak Saini*", "Akshay Soni", Yajun Wang, Kushal Dave, Jian Jiao, Gururaj K, Prasenjit Dey, Amit Singh, Deepesh Hada, Vidit Jain, Bhawna Paliwal, Anshul Mittal, Sonu Mehta, Ramachandran Ramjee, Sumeet Agarwal, Purushottam Kar, Manik Varma]
 title: "NGAME: Negative Mining aware Mini-batching for Extreme Classification"
 date: "2023-08-01"
 venue: "WSDM 2023"
