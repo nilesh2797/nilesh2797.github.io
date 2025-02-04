@@ -52,7 +52,7 @@ a {
     border: 1.5px solid var(--border);
     transition: background 0.3s;
     pointer-events: inherit; /* Disable click events on the entire chip */
-    z-index: 100000; /* Raises above the absolute .entry-link */
+    z-index: 1; /* Raises above the absolute .entry-link */
 }
 
 .link-chip:hover {

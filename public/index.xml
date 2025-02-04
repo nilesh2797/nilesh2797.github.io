@@ -14,11 +14,11 @@
     <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Personal</title>
-      <link>http://localhost:1313/fun/</link>
+      <title>Court Studios 🎤</title>
+      <link>http://localhost:1313/personal/court_studios/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fun/</guid>
-      <description>Some side and fun projects</description>
+      <guid>http://localhost:1313/personal/court_studios/</guid>
+      <description>CourtStudios is our little jamming group which covers popular south asian songs. Some sessions below.</description>
     </item>
     <item>
       <title>Exploring Design Choices for Building Language-Specific LLMs</title>
