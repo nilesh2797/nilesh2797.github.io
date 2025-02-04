@@ -11,14 +11,28 @@
     </image>
     <generator>Hugo -- 0.126.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal</title>
+      <link>http://localhost:1313/fun/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fun/</guid>
+      <description>Some side and fun projects</description>
+    </item>
     <item>
       <title>Exploring Design Choices for Building Language-Specific LLMs</title>
       <link>http://localhost:1313/publications/language_specific_llms/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/language_specific_llms/</guid>
       <description>This paper examines how adapting LLMs with vocabulary extension and pretraining improves efficiency and performance across languages</description>
+    </item>
+    <item>
+      <title>EHI: End-to-end Learning of Hierarchical Index for Efficient Dense Retrieval</title>
+      <link>http://localhost:1313/publications/ehi/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/ehi/</guid>
+      <description>About Dense embedding-based retrieval is widely used for semantic search and ranking. However, conventional two-stage approaches, involving contrastive embedding learning followed by approximate nearest neighbor search (ANNS), can suffer from misalignment between these stages. This mismatch degrades retrieval performance. We propose End-to-end Hierarchical Indexing (EHI), a novel method that directly addresses this issue by jointly optimizing embedding generation and ANNS structure. EHI leverages a dual encoder for embedding queries and documents while simultaneously learning an inverted file index (IVF)-style tree structure.</description>
     </item>
     <item>
       <title>Dual-encoders for Extreme Multi-label Classification</title>

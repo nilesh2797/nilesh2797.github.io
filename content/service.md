@@ -17,6 +17,6 @@ draft: false
 
 ### Teaching Assistant
 #### UT Austin
-- Fundamentals of Machine Learning - *Spring 2023, [Spring 2025](https://utcs-ml-course.github.io/)*
+- Graduate Machine Learning - *Spring 2023, [Spring 2025](https://utcs-ml-course.github.io/)*
 - Principles of Machine Learning I - *Fall 2023, Spring 2024* 
 - Symbolic Programming - *Fall 2022*

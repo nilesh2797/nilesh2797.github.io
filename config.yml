@@ -32,7 +32,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: false
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -138,6 +138,10 @@ menu:
       name: Service
       url: service
       weight: 30
+    # - identifier: Personal
+    #   name: Personal
+    #   url: fun
+    #   weight: 35
     - identifier: CV
       name: CV
       url: ./CV.pdf

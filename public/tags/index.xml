@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.126.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Info</title>
+      <link>http://localhost:1313/tags/info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/info/</guid>
+      <description></description>
+    </item>
     <item>
       <title>LLM</title>
       <link>http://localhost:1313/tags/llm/</link>
@@ -42,6 +49,20 @@
       <description></description>
     </item>
     <item>
+      <title>Information-Retrieval</title>
+      <link>http://localhost:1313/tags/information-retrieval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/information-retrieval/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TMLR</title>
+      <link>http://localhost:1313/tags/tmlr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tmlr/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Extreme-Classification</title>
       <link>http://localhost:1313/tags/extreme-classification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -53,20 +74,6 @@
       <link>http://localhost:1313/tags/iclr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/iclr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Info</title>
-      <link>http://localhost:1313/tags/info/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/info/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Information-Retrieval</title>
-      <link>http://localhost:1313/tags/information-retrieval/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/information-retrieval/</guid>
       <description></description>
     </item>
     <item>
