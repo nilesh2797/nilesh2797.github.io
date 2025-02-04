@@ -1,5 +1,5 @@
 ---
-author: ["++Nilesh Gupta++", "Devvrit Khatri", "Srinadh Bhojanapalli", "Ankit S. Rawat", "Prateek Jain", "Inderjit S. Dhillon"]
+author: ["<u>Nilesh Gupta</u>", "Devvrit Khatri", "Srinadh Bhojanapalli", "Ankit S. Rawat", "Prateek Jain", "Inderjit S. Dhillon"]
 title: "Dual-encoders for Extreme Multi-label Classification"
 date: "2024-05-19"
 venue: "ICLR 2024"

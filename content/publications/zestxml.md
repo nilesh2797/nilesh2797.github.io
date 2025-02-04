@@ -1,5 +1,5 @@
 ---
-author: ["++Nilesh Gupta++", "Sakina Bohra", "Yashoteja Prabhu", "Saurabh Purohit", "Manik Varma"]
+author: ["<u>Nilesh Gupta</u>", "Sakina Bohra", "Yashoteja Prabhu", "Saurabh Purohit", "Manik Varma"]
 title: "Generalized Zero-shot Extreme Multi-label Classification"
 date: "2021-05-19"
 venue: "KDD 2021"

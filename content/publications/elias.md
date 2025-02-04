@@ -1,5 +1,5 @@
 ---
-author: ["++Nilesh Gupta++", "Patrick H. Chen", "Hsiang-Fu Yu", "Cho-Jui Hsieh", "Inderjit S. Dhillon"]
+author: ["<u>Nilesh Gupta</u>", "Patrick H. Chen", "Hsiang-Fu Yu", "Cho-Jui Hsieh", "Inderjit S. Dhillon"]
 title: "ELIAS: End-to-end Learning to Search and Index in Large Output Spaces"
 date: "2022-12-01"
 venue: "NeurIPS 2022"

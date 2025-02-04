@@ -1,5 +1,5 @@
 ---
-author: ["Atula Tejaswi*", "++Nilesh Gupta++*", "Eunsol Choi"]
+author: ["Atula Tejaswi*", "<u>Nilesh Gupta</u>*", "Eunsol Choi"]
 title: "Exploring Design Choices for Building Language-Specific LLMs"
 date: "2025-02-02"
 venue: "EMNLP 2024"
