@@ -3,7 +3,7 @@ author: ["Ramnath Kumar", "Anshul Mittal", "<u>Nilesh Gupta</u>", "Aditya Kusupa
 title: "EHI: End-to-end Learning of Hierarchical Index for Efficient Dense Retrieval"
 date: "2024-08-01"
 venue: "TMLR 2024"
-description: ""
+description: "End-to-End Hierarchical Indexing (EHI) improves dense retrieval by jointly learning embeddings and ANN structure, outperforming traditional two-stage methods through integrated optimization and path-aware tree indexing."
 summary: ""
 links:
   - text: "Paper"
