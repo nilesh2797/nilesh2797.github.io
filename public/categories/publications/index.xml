@@ -25,7 +25,7 @@
       <link>http://localhost:1313/publications/ehi/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/ehi/</guid>
-      <description>About Dense embedding-based retrieval is widely used for semantic search and ranking. However, conventional two-stage approaches, involving contrastive embedding learning followed by approximate nearest neighbor search (ANNS), can suffer from misalignment between these stages. This mismatch degrades retrieval performance. We propose End-to-end Hierarchical Indexing (EHI), a novel method that directly addresses this issue by jointly optimizing embedding generation and ANNS structure. EHI leverages a dual encoder for embedding queries and documents while simultaneously learning an inverted file index (IVF)-style tree structure.</description>
+      <description>End-to-End Hierarchical Indexing (EHI) improves dense retrieval by jointly learning embeddings and ANN structure, outperforming traditional two-stage methods through integrated optimization and path-aware tree indexing.</description>
     </item>
     <item>
       <title>Dual-encoders for Extreme Multi-label Classification</title>
