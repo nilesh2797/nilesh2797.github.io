@@ -4,14 +4,14 @@ title: "Scalable In-context Ranking with Generative Models"
 date: "2025-10-08"
 venue: "NeurIPS 2025"
 description: ""
-summary: "A parameter efficient encoder only model for multi-shot retrieval (aka extreme classification)"
+summary: "scalable in-context ranker, towards retrieval-native LLMs — models that understand & optimize retrieval internally, rather than as an external prompt-level task."
 links:
   - text: "Paper"
     url: "https://arxiv.org/abs/2510.05396"
   - text: "Code"
     url: "https://github.com/nilesh2797/BlockRank"
   - text: "Bibtex"
-    url: "/publications/dexml/#cite"
+    url: "/publications/blockrank/#cite"
 tags: ["information-retrieval", "llm", "neurips", "in-context-ranking"]
 categories: ["Publications"]
 series: ["Publications"]
@@ -60,7 +60,7 @@ Based on these observations, BlockRank modifies both the architecture and traini
   Uses attention maps (from the prefill stage) to compute document relevance scores directly — eliminating the need for auto-regressive decoding.
 
 <p align="center">
-  <img src="media/blockrank_diagram.png" alt="BlockRank Architecture Overview" width="700"/>
+  <img src="/media/blockrank_diagram.png" alt="BlockRank Architecture Overview" width="700"/>
   <br/>
   <em>Figure: BlockRank imposes blockwise sparse attention and leverages query-token attention signals for efficient in-context ranking.</em>
 </p>
@@ -81,16 +81,6 @@ Based on these observations, BlockRank modifies both the architecture and traini
 If you find this work useful, please cite:
 
 ```bibtex
-@article{gupta2025blockrank,
-  title={Scalable In-context Ranking with Generative Models},
-  author={Gupta, Nilesh and You, Chong and Bhojanapalli, Srinadh and Kumar, Sanjiv and Dhillon, Inderjit and Yu, Felix},
-  journal={arXiv preprint arXiv:2510.05396},
-  year={2025}
-}
-```
-
-### Cite
-```bib
 @article{gupta2025blockrank,
   title={Scalable In-context Ranking with Generative Models},
   author={Gupta, Nilesh and You, Chong and Bhojanapalli, Srinadh and Kumar, Sanjiv and Dhillon, Inderjit and Yu, Felix},
