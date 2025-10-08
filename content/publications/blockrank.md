@@ -20,14 +20,6 @@ TocOpen: false
 draft: false
 ---
 
-# BlockRank: Scalable In-context Ranking with Generative Models
-
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.05396)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Code-Coming%20Soon-orange.svg)](#code-coming-soon)
-
----
-
 ### Overview
 
 Large Language Models (LLMs) are rapidly becoming the fundamental unit of computation — powering reasoning, generation, and increasingly, *retrieval*.  While modern Information Retrieval (IR) systems already leverage LLMs for contextual ranking, they often treat them as *black boxes*, relying on general intelligence but ignoring structural efficiency.
