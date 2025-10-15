@@ -4,7 +4,7 @@ title: "Scalable In-context Ranking with Generative Models"
 date: "2025-10-08"
 venue: "NeurIPS 2025"
 description: ""
-summary: "scalable in-context ranker, towards retrieval-native LLMs — models that understand & optimize retrieval internally, rather than as an external prompt-level task."
+summary: "*scalable in-context ranker, towards retrieval-native LLMs — models that understand & optimize retrieval internally, rather than as an external prompt-level task.*"
 links:
   - text: "Paper"
     url: "https://arxiv.org/abs/2510.05396"
@@ -18,14 +18,6 @@ series: ["Publications"]
 ShowToc: true
 TocOpen: false
 draft: false
----
-
-# BlockRank: Scalable In-context Ranking with Generative Models
-
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.05396)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Code-Coming%20Soon-orange.svg)](#code-coming-soon)
-
 ---
 
 ### Overview

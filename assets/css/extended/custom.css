@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Optima&display=swap'); /* Optional if using a web version */
-
+/* Custom CSS to change fonts and link colors, make sure to import the font in layouts/partials/extend_head.html */
 :root {
-    --body-font: 'Optima', sans-serif;
-    --heading-font: 'Optima', sans-serif;
+    --body-font: 'Source Sans 3', 'Arial', sans-serif;
+    --heading-font: 'Inter', 'Montserrat', sans-serif;
 }
 
 /* Apply font to all text elements */
 body, 
-h1, h2, h3, h4, h5, h6, 
+h3, h4, h5, h6, 
 p, a, 
 .archive-meta, .entry-content, .page-content, .page-footnote, 
 #menu, .pagination, .post-meta, .footer {
-    font-family: 'Optima', sans-serif;
+    font-family: var(--body-font) !important;
+}
+
+h1, h2 {
+    font-family: var(--heading-font) !important;
 }
 
 body {
@@ -20,7 +23,7 @@ body {
 
 /* Ensure logo uses the font */
 .logo a {
-    font-family: 'Optima', sans-serif !important;
+    font-family: var(--heading-font) !important;
     font-size: 2.0em;
 }
 
