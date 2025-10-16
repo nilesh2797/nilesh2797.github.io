@@ -62,6 +62,37 @@ a {
   background-color: var(--theme);
 }
 
+body:has(.post-single) .header {
+    position: fixed;
+    top: -200px;
+    transition: top 0.2s ease-in-out;
+    z-index: 1000;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+body:has(.post-single) .header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body:has(.post-single) .header .logo {
+    flex: 0 0 auto;
+}
+
+body:has(.post-single) .header .menu {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Add padding to blog content to account for hidden header */
+body:has(.post-single) .main {
+    padding-top: 60px; /* Adjust this value as needed */
+}
+
 /* .link-tags {
     display: flex;
     flex-wrap: wrap;

@@ -1,0 +1,25 @@
+<script>
+    if (document.querySelector('.post-single')) {
+        let timeout;
+        const header = document.querySelector('.header');
+        
+        document.addEventListener('mousemove', (e) => {
+            clearTimeout(timeout);
+            
+            // Show header when mouse is in top 80px
+            if (e.clientY < 80) {
+                header.style.top = '0';
+            } else {
+                // Hide header after a short delay when mouse leaves top area
+                timeout = setTimeout(() => {
+                    header.style.top = '-100px';
+                }, 50);
+            }
+        });
+        
+        // Keep header visible when hovering directly over it
+        header.addEventListener('mouseenter', () => {
+            clearTimeout(timeout);
+        });
+    }
+    </script>

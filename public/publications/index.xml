@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.126.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LLM-guided Hierarchical Retrieval</title>
+      <link>http://localhost:1313/publications/lattice/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/lattice/</guid>
+      <description>&lt;em&gt;LATTICE turns retrieval into an LLM-driven navigation problem over a semantic scaffold for computational tractability needed for large corpora.&lt;/em&gt;</description>
+    </item>
     <item>
       <title>Scalable In-context Ranking with Generative Models</title>
       <link>http://localhost:1313/publications/blockrank/</link>
