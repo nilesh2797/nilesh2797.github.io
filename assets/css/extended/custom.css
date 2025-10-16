@@ -62,14 +62,21 @@ a {
   background-color: var(--theme);
 }
 
+/* Auto-hide header on blog pages - use sticky instead of fixed */
 body:has(.post-single) .header {
-    position: fixed;
-    top: -200px;
-    transition: top 0.2s ease-in-out;
+    position: sticky;
+    top: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
     z-index: 1000;
-    width: 100%;
-    left: 0;
-    right: 0;
+    background: rgba(var(--theme-rgb), 0.85); /* Translucent background */
+    backdrop-filter: blur(10px); /* Blur effect for content behind */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+}
+
+/* Show header when triggered by JavaScript */
+body:has(.post-single) .header.show {
+    transform: translateY(0);
 }
 
 body:has(.post-single) .header .nav {
@@ -88,9 +95,9 @@ body:has(.post-single) .header .menu {
     justify-content: flex-end;
 }
 
-/* Add padding to blog content to account for hidden header */
+/* No extra padding needed - content flows naturally */
 body:has(.post-single) .main {
-    padding-top: 60px; /* Adjust this value as needed */
+    padding-top: 0;
 }
 
 /* .link-tags {
