@@ -1,0 +1,9 @@
+<div style="width: 100%; max-width: {{ .Get "maxwidth" | default "1200px" }}; margin: 0 auto; overflow-x: auto;">
+    <iframe src="{{ .Get "src" }}" 
+            width="100%" 
+            height="{{ .Get "height" | default "1000px" }}" 
+            frameborder="0" 
+            style="border:0; display:block;"
+            scrolling="no">
+    </iframe>
+</div>

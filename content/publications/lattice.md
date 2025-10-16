@@ -6,7 +6,7 @@ venue: "Arxiv"
 description: ""
 summary: "*LATTICE turns retrieval into an LLM-driven navigation problem over a semantic scaffold for computational tractability needed for large corpora.*"
 links:
-  - text: "Paper"
+  - text: "📃 Paper"
     url: "https://arxiv.org/abs/2510.13217"
   - text: "Code"
     url: "https://github.com/nilesh2797/lattice"
@@ -27,6 +27,11 @@ LATTICE proposes an *LLM-native retrieval* paradigm that combines the efficiency
 <p align="center">
   <img src="/media/lattice-overview.png" width="800">
 </p>
+
+## Interactive sample prediction
+
+<!-- {{< plotly src="/plots/visualize_sample_bio0.html" height="1020px" maxwidth="1400px" >}} -->
+<iframe src="/plots/visualize_sample_bio0.html" width="100%" height="600px" frameborder="0"></iframe>
 
 ### Key ideas
 - **Semantic tree index:**

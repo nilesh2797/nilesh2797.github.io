@@ -62,10 +62,13 @@ a {
   background-color: var(--theme);
 }
 
-/* Auto-hide header on blog pages - use sticky instead of fixed */
+/* Auto-hide header on blog pages - use fixed instead of sticky */
 body:has(.post-single) .header {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     transform: translateY(-100%);
     transition: transform 0.3s ease-in-out;
     z-index: 1000;
@@ -95,9 +98,9 @@ body:has(.post-single) .header .menu {
     justify-content: flex-end;
 }
 
-/* No extra padding needed - content flows naturally */
+/* Reduce top padding since header is now fixed */
 body:has(.post-single) .main {
-    padding-top: 0;
+    padding-top: 20px; /* Adjust this value as needed */
 }
 
 /* .link-tags {
