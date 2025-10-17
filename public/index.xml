@@ -90,5 +90,13 @@
       <guid>http://localhost:1313/publications/xreg/</guid>
       <description>This paper introduces a new learning paradigm called eXtreme Regression (XR) whose objective is to accurately predict the numerical degrees of relevance of an extremely large number of labels to a data point. XR can provide elegant solutions to many large-scale ranking and recommendation applications including Dynamic Search Advertising (DSA).</description>
     </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/blogs/_lattice_blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/_lattice_blog/</guid>
+      <description>LATTICE: turning LLMs into search agents — a technical deep dive By [Your Name]
+TL;DR: LATTICE reframes retrieval as an LLM-driven navigation problem over a pre-built semantic tree. It builds a hierarchical index (bottom-up or top-down, using LLMs for summarization and clustering) and at query time uses an LLM as an active search agent to score small slates of sibling nodes. Noisy, slate-dependent LLM scores are calibrated into slate-independent latent relevance estimates; these are aggregated into a smoothed path relevance that guides a greedy best-first traversal.</description>
+    </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@ venue: "Arxiv"
 description: ""
 summary: "*LATTICE turns retrieval into an LLM-driven navigation problem over a semantic scaffold for computational tractability needed for large corpora.*"
 links:
-  - text: "📃 Paper"
+  - text: "Paper"
     url: "https://arxiv.org/abs/2510.13217"
   - text: "Code"
     url: "https://github.com/nilesh2797/lattice"
@@ -22,16 +22,23 @@ draft: false
 
 ## Overview
 
-LATTICE proposes an *LLM-native retrieval* paradigm that combines the efficiency of hierarchical search with the reasoning power of modern large language models. Instead of relying on a static retriever + reranker pipeline or attempting to place a large corpus directly in an LLM context, LATTICE organizes the corpus into a semantic tree and uses an LLM as an *active search agent* that navigates that tree. This design yields logarithmic search complexity while preserving the LLM’s ability to perform nuanced, multi-step relevance judgments for complex, reasoning-heavy queries.
-
 <p align="center">
   <img src="/media/lattice-overview.png" width="800">
 </p>
 
+LATTICE proposes an *LLM-native retrieval* paradigm that combines the efficiency of hierarchical search with the reasoning power of modern large language models. Instead of relying on a static retriever + reranker pipeline or attempting to place a large corpus directly in an LLM context, LATTICE organizes the corpus into a semantic tree and uses an LLM as an *active search agent* that navigates that tree. This design yields logarithmic search complexity while preserving the LLM’s ability to perform nuanced, multi-step relevance judgments for complex, reasoning-heavy queries.
+
 ## Interactive sample prediction
 
 <!-- {{< plotly src="/plots/visualize_sample_bio0.html" height="1020px" maxwidth="1400px" >}} -->
-<iframe src="/plots/visualize_sample_bio0.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/plots/visualize_sample_bio0.html" width="800" height="600px" frameborder="0"></iframe>
+
+Interactive Plotly view of a LATTICE search over a semantic tree: the tree root is at the top and document leaves are at the bottom.  
+- **Yellow path** = ground-truth route to the relevant document(s).  
+- **Green intensity** = node path relevance (darker = higher relevance).  
+- **Hover callouts** show the LLM’s local score, calibrated latent score, child scores, and the model’s reasoning (chain-of-thought) used when expanding that node.  
+
+Use the visualization to quickly see which branches the agent prioritized, inspect calibration effects (local vs. calibrated scores), and read the LLM’s justification for traversal decisions.
 
 ### Key ideas
 - **Semantic tree index:**
