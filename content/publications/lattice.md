@@ -12,7 +12,7 @@ links:
     url: "https://github.com/nilesh2797/lattice"
   - text: "Bibtex"
     url: "/publications/lattice/#-cite"
-  - text: "🤗 Paper Page"
+  - text: "HF Page"
     url: "https://huggingface.co/papers/2510.13217"
 tags: ["information-retrieval", "llm"]
 categories: ["Publications"]
