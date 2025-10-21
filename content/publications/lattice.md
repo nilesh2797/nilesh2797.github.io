@@ -10,6 +10,8 @@ links:
     url: "https://arxiv.org/abs/2510.13217"
   - text: "Code"
     url: "https://github.com/nilesh2797/lattice"
+  - text: "Colab"
+    url: "[https://github.com/nilesh2797/lattice](https://colab.research.google.com/drive/1AwDrHzipFVe-9kNAUJjCC4CNL4soRsqb?usp=sharing)"
   - text: "Bibtex"
     url: "/publications/lattice/#-cite"
   - text: "HF Page"
