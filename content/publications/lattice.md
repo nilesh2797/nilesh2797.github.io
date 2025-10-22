@@ -11,7 +11,7 @@ links:
   - text: "Code"
     url: "https://github.com/nilesh2797/lattice"
   - text: "Colab"
-    url: "[https://github.com/nilesh2797/lattice](https://colab.research.google.com/drive/1AwDrHzipFVe-9kNAUJjCC4CNL4soRsqb?usp=sharing)"
+    url: "https://colab.research.google.com/drive/1AwDrHzipFVe-9kNAUJjCC4CNL4soRsqb?usp=sharing"
   - text: "Bibtex"
     url: "/publications/lattice/#cite"
   - text: "HF Page"
