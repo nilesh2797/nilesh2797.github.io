@@ -12,6 +12,8 @@ links:
     url: "https://github.com/nilesh2797/BlockRank"
   - text: "Bibtex"
     url: "/publications/blockrank/#cite"
+  - text: "HF Page"
+    url: "https://huggingface.co/papers/2510.05396"
 tags: ["information-retrieval", "llm", "neurips", "in-context-ranking"]
 categories: ["Publications"]
 series: ["Publications"]
