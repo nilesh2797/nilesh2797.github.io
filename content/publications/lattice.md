@@ -13,7 +13,7 @@ links:
   - text: "Colab"
     url: "[https://github.com/nilesh2797/lattice](https://colab.research.google.com/drive/1AwDrHzipFVe-9kNAUJjCC4CNL4soRsqb?usp=sharing)"
   - text: "Bibtex"
-    url: "/publications/lattice/#-cite"
+    url: "/publications/lattice/#cite"
   - text: "HF Page"
     url: "https://huggingface.co/papers/2510.13217"
 tags: ["information-retrieval", "llm"]
