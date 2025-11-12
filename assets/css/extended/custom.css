@@ -1,6 +1,6 @@
 /* Custom CSS to change fonts and link colors, make sure to import the font in layouts/partials/extend_head.html */
 :root {
-    --body-font: 'Inter', 'Arial', sans-serif;
+    --body-font: 'Source Sans 3', 'Arial', sans-serif;
     --heading-font: 'Libre Franklin', 'Montserrat', sans-serif;
 }
 
