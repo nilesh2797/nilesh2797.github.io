@@ -24,11 +24,11 @@ TocOpen: false
 draft: false
 ---
 
-## Overview
-
 <p align="center">
   <img src="/media/lattice-overview.png" width="800">
 </p>
+
+## Overview
 
 LATTICE proposes an *LLM-native retrieval* paradigm that combines the efficiency of hierarchical search with the reasoning power of modern large language models. Instead of relying on a static retriever + reranker pipeline or attempting to place a large corpus directly in an LLM context, LATTICE organizes the corpus into a semantic tree and uses an LLM as an *active search agent* that navigates that tree. This design yields logarithmic search complexity while preserving the LLM’s ability to perform nuanced, multi-step relevance judgments for complex, reasoning-heavy queries. Below we provide a sample interactive visualization of LATTICE search.
 
