@@ -10,6 +10,8 @@ links:
     url: "https://arxiv.org/abs/2510.05396"
   - text: "Code"
     url: "https://github.com/nilesh2797/BlockRank"
+  - text: "Slides"
+    url: "https://docs.google.com/presentation/d/1zyvgCIZIjomIDUjeDOcdoiA55SGiiAe89Oz-Fm_KeYY/edit?usp=sharing"
   - text: "Bibtex"
     url: "/publications/blockrank/#cite"
   - text: "HF Page"
