@@ -33,7 +33,7 @@ b, strong {
 /* Ensure logo uses the font */
 .logo a {
     font-family: var(--heading-font) !important;
-    font-size: 2.0em;
+    font-size: 2.25em;
 }
 
 /* Change color of regular links */
