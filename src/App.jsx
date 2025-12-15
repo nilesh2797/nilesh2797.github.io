@@ -109,9 +109,9 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
       <section className="mb-16">
         <div className="flex flex-col-reverse md:flex-row-reverse items-start gap-12 md:gap-16 mb-8">
           <div className="flex-1">
-            <div className={`text-base ${darkMode ? 'text-gray-100' : 'text-gray-900'}`} style={{ lineHeight: '1.5', fontWeight: '500' }}>
+            <div className={`text-sm ${darkMode ? 'text-gray-100' : 'text-gray-900'}`} style={{ lineHeight: '1.8', fontWeight: '500' }}>
               <p className="mb-4">
-                I am final year PhD student at <a href="https://www.utexas.edu/">UT Austin</a> advised by <a href="https://www.cs.utexas.edu/~inderjit/" className=''>Prof. Inderjit Dhillon</a>.
+                I am final year CS PhD student at <a href="https://www.utexas.edu/">UT Austin</a> advised by <a href="https://www.cs.utexas.edu/~inderjit/" className=''>Prof. Inderjit Dhillon</a>.
               </p>
               <p className="mb-4">
               My research focuses on <span class="">End-to-end Information Retrieval</span> and <span class="">Efficient Large Language Models (LLMs)</span>. During my PhD, I have worked closely with <a href="https://www.prateekjain.org/">Dr. Prateek Jain</a> and <a href="https://www.felixyu.org/">Dr. Felix Yu</a> at <a href="https://deepmind.google/">Google Deepmind</a>.
@@ -120,7 +120,7 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
               Before PhD, I spent 2 years at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/">MSR India</a> working with <a href="http://manikvarma.org/">Dr. Manik Varma</a>. I completed my undergraduate with Honours in CS from <a href="https://www.iitb.ac.in/">IIT Bombay</a>.
               </p>
             </div>
-            <div className={`p-5 rounded-lg border-l-4 text-base font-medium leading-6`} style={{
+            <div className={`p-5 rounded-lg border-l-4 text-sm font-medium leading-6`} style={{
           backgroundColor: darkMode ? 'rgba(191, 87, 0, 0.1)' : 'rgba(191, 87, 0, 0.08)',
           borderColor: 'rgba(191, 87, 0, 1)',
           color: darkMode ? 'rgba(191, 87, 0, 0.8)' : 'rgb(71, 85, 105)'
@@ -158,15 +158,15 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
               <span className={`text-[11px] font-bold tracking-wider px-2 py-1 rounded-md ${darkMode ? 'bg-red-900/30 text-red-300' : 'bg-red-50 text-red-700'} uppercase`}>
                 Nov 25
               </span>
-              <span className={`text-base font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
-                Gave my PhD <a href="https://docs.google.com/presentation/d/1fSW3Ur5NHgaHApceDPoZuSfqj1wHX0wAl1KfrsowTqw/edit?usp=sharing">Proposal Talk</a>
+              <span className={`text-sm font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
+                Gave <a href="https://docs.google.com/presentation/d/1fSW3Ur5NHgaHApceDPoZuSfqj1wHX0wAl1KfrsowTqw/edit?usp=sharing">PhD Proposal Talk</a> on Towards Unified and Scalable End-to-end Search
               </span>
             </li>
             <li className="flex gap-4 items-baseline">
               <span className={`text-[11px] font-bold tracking-wider px-2 py-1 rounded-md ${darkMode ? 'bg-red-900/30 text-red-300' : 'bg-red-50 text-red-700'} uppercase`}>
                 Nov 25
               </span>
-              <span className={`text-base font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
+              <span className={`text-sm font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
                 Released our work on <a href="/publications/lattice/">LLM-guided hierarchical retrieval</a>, gets 3rd place on <a href="https://brightbenchmark.github.io/">BRIGHT</a> leaderboard
               </span>
             </li>
@@ -174,13 +174,13 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
               <span className={`text-[11px] font-bold tracking-wider px-2 py-1 rounded-md ${darkMode ? 'bg-red-900/30 text-red-300' : 'bg-red-50 text-red-700'} uppercase`}>
                 Oct 25
               </span>
-              <span className={`text-base font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
+              <span className={`text-sm font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
                 Gave <a href="https://docs.google.com/presentation/d/1zyvgCIZIjomIDUjeDOcdoiA55SGiiAe89Oz-Fm_KeYY/edit?usp=sharing">Talk</a> at Amazon AWS Transform team
               </span>
             </li>
             <li className="flex gap-4 items-baseline">
               <span className={`text-[11px] font-bold tracking-wider px-2 py-1 rounded-md ${darkMode ? 'bg-red-900/30 text-red-300' : 'bg-red-50 text-red-700'} uppercase`}>Oct 25</span>
-              <span className={`text-base font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
+              <span className={`text-sm font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
                 <a href="publications/blockrank/">BlockRank</a> accepted at NeurIPS 2025, see y'all at San Diego!
               </span>
             </li>
@@ -188,7 +188,7 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
               <span className={`text-[11px] font-bold tracking-wider px-2 py-1 rounded-md ${darkMode ? 'bg-red-900/30 text-red-300' : 'bg-red-50 text-red-700'} uppercase`}>
                 May 25
               </span>
-              <span className={`text-base font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
+              <span className={`text-sm font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
                 Started Internship at Google with Inderjit Dhillon & Cho-Jui Hsieh.
               </span>
             </li>
@@ -343,19 +343,18 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
               </div>
 
               <article>
-          <header className="mb-12 text-center flex flex-col items-center justify-center">
-            <h1 className={`text-4xl md:text-4xl font-bold mb-8 leading-tight ${darkMode ? 'text-white' : 'text-slate-900'}`} style={{ fontFamily: "'Libre Franklin', sans-serif" }}>
+          <header className="mb-12 text-center flex flex-col">
+            <h1 className={`text-2xl md:text-4xl font-semibold mb-4 leading-tight ${darkMode ? 'text-white' : 'text-slate-900'}`} style={{ fontFamily: "'Libre Franklin', sans-serif" }}>
               {currentPaper.title}
             </h1>
 
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
               {currentPaper.venue && (
-                <span className={`px-3 py-1 rounded text-xs font-bold tracking-widest uppercase border ${darkMode ? 'border-gray-700 bg-gray-800 text-gray-300' : 'border-gray-200 bg-gray-50 text-gray-500'}`}>
-            {currentPaper.venue}
-                </span>
-              )}
-              
-              <div className={`text-medium font-medium leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+                  <span className={`px-3 py-1 rounded text-xs font-bold leading-relaxed tracking-widest uppercase border ${darkMode ? 'border-gray-700 bg-gray-800 text-gray-300' : 'border-gray-200 bg-gray-50 text-gray-500'}`}>
+              {currentPaper.venue}
+                  </span>
+                )}
+              <div className={`text-sm font-medium leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
                 {currentPaper.authors && currentPaper.authors.map((author, index) => (
             <span key={index}>
               <span dangerouslySetInnerHTML={{ __html: author }} />
@@ -380,7 +379,7 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
             </div>
           </header>
 
-          <hr className={`border-t mb-12 ${darkMode ? 'border-gray-800' : 'border-gray-100'}`} />
+          {/* <hr className={`border-t mb-12 ${darkMode ? 'border-gray-800' : 'border-gray-100'}`} /> */}
 
           {/* Table of Contents - After header, before content */}
         {headings.length > 0 && (
@@ -423,7 +422,7 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
         <div className="relative">
           {/* Desktop: Positioned in left margin */}
           {headings.length > 0 && (
-            <aside className="hidden lg:block absolute left-0 w-56" style={{ marginLeft: '-280px' }}>
+            <aside className="hidden lg:block absolute left-0 w-56" style={{ marginLeft: '-200px' }}>
               <div className="sticky top-24">
                 <h3 className={`text-sm font-bold mb-4 uppercase tracking-wider ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
                   Contents
@@ -522,7 +521,7 @@ function PaperEntry({ data, darkMode }) {
     <article className="group flex flex-col md:flex-row gap-6 md:gap-10 items-start">
       <div className="flex-1 space-y-2">
         <div className="flex items-center gap-3 flex-wrap">
-          <h3 className={`text-xl md:text-2xl font-semibold leading-tight tracking-tight`} style={{ fontFamily: "'Libre Franklin', sans-serif" }}>
+          <h3 className={`text-xl md:text-xl font-semibold leading-tight tracking-tight`} style={{ fontFamily: "'Libre Franklin', sans-serif" }}>
             <Link
               to={`/publications/${id}/`}
               className="hover:opacity-70 transition-opacity"
@@ -542,7 +541,7 @@ function PaperEntry({ data, darkMode }) {
           )}
         </div>
 
-        <p className={`text-base font-medium leading-6 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+        <p className={`text-sm font-medium leading-6 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
           {authors && authors.map((author, index) => (
             <React.Fragment key={index}>
               <span dangerouslySetInnerHTML={{ __html: author }} className={author.includes("Nilesh") ? (darkMode ? 'text-gray-100 font-semibold' : 'text-gray-900 font-semibold') : ''} />
