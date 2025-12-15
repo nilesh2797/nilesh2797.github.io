@@ -109,7 +109,7 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
       <section className="mb-16">
         <div className="flex flex-col-reverse md:flex-row-reverse items-start gap-12 md:gap-16 mb-8">
           <div className="flex-1">
-            <div className={`text-base ${darkMode ? 'text-gray-100' : 'text-gray-900'}`} style={{ lineHeight: '1.4', fontWeight: '500' }}>
+            <div className={`text-base ${darkMode ? 'text-gray-100' : 'text-gray-900'}`} style={{ lineHeight: '1.5', fontWeight: '500' }}>
               <p className="mb-4">
                 I am a final year CS PhD at <a href="https://www.utexas.edu/">UT Austin</a> advised by <a href="https://www.cs.utexas.edu/~inderjit/" className=''>Prof. Inderjit Dhillon</a>.
               </p>
@@ -130,7 +130,7 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
           </div>
 
           <div className="flex-shrink-0 flex flex-col items-center gap-6 self-center md:self-start">
-            <div className="w-32 h-32 md:w-56 md:h-56 relative">
+            <div className="w-48 h-48 md:w-56 md:h-56 relative">
               <img src="/assets/me2.jpg" alt="Nilesh Gupta" className="w-full h-full object-cover rounded-2xl transition-all duration-700 ease-in-out"/>
             </div>
             <div className="flex gap-6 justify-center">
