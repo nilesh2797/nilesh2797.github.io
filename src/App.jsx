@@ -77,7 +77,7 @@ function Header({ darkMode, toggleTheme }) {
   return (
     <header className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-6">
       <Link to="/" className="cursor-pointer group">
-        <h1 className={`text-5xl font-bold tracking-tight ${darkMode ? 'text-white' : 'text-slate-900'}`} style={{ fontFamily: "'Libre Franklin', sans-serif" }}>
+        <h1 className={`text-4xl font-bold tracking-tight ${darkMode ? 'text-white' : 'text-slate-900'}`} style={{ fontFamily: "'Libre Franklin', sans-serif" }}>
           Nilesh Gupta
         </h1>
       </Link>
