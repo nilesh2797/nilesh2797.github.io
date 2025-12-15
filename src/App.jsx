@@ -106,7 +106,7 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
     <main className="animate-in fade-in duration-500 slide-in-from-bottom-4">
       <Header darkMode={darkMode} toggleTheme={toggleTheme} />
       {/* Hero Section */}
-      <section className="mb-12">
+      <section className="mb-16">
         <div className="flex flex-col-reverse md:flex-row-reverse items-start gap-12 md:gap-16 mb-8">
           <div className="flex-1">
             <div className={`text-base ${darkMode ? 'text-gray-100' : 'text-gray-900'}`} style={{ lineHeight: '1.4', fontWeight: '500' }}>
@@ -198,7 +198,7 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
       </section>
 
       {/* Publications List */}
-      <section id="publications">
+      <section id="publications" className="mb-16">
         <h2 className={`text-3xl font-bold mb-10 flex items-center gap-3 ${darkMode ? 'text-white' : 'text-slate-900'}`} style={{ fontFamily: "'Libre Franklin', sans-serif" }}>
           Selected Publications
           <span className={`h-px flex-1 ${darkMode ? 'bg-gray-800' : 'bg-gray-200'}`}></span>
