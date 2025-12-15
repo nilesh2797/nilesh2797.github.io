@@ -344,7 +344,7 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
 
               <article>
           <header className="mb-12 text-center flex flex-col">
-            <h1 className={`text-2xl md:text-4xl font-semibold mb-4 leading-tight ${darkMode ? 'text-white' : 'text-slate-900'}`} style={{ fontFamily: "'Libre Franklin', sans-serif" }}>
+            <h1 className={`text-3xl md:text-4xl font-semibold mb-4 leading-tight ${darkMode ? 'text-white' : 'text-slate-900'}`} style={{ fontFamily: "'Libre Franklin', sans-serif" }}>
               {currentPaper.title}
             </h1>
 
@@ -384,7 +384,7 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
           {/* Table of Contents - After header, before content */}
         {headings.length > 0 && (
           <>
-            {/* Mobile: Stacked collapsible section */}
+            {/* Mobile: Collapsible section */}
             <aside className="block lg:hidden mb-8">
               <details className={`${darkMode ? 'bg-gray-800/50' : 'bg-gray-50'} rounded-lg p-4`}>
                 <summary className={`text-sm font-bold uppercase tracking-wider cursor-pointer ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
@@ -422,8 +422,8 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
         <div className="relative">
           {/* Desktop: Positioned in left margin */}
           {headings.length > 0 && (
-            <aside className="hidden lg:block absolute left-0 w-56" style={{ marginLeft: '-200px' }}>
-              <div className="sticky top-24">
+            <aside className="hidden lg:block fixed left-0 w-56 top-24" style={{ marginLeft: 'calc((100vw - 1024px) / 2 - 200px)' }}>
+              <div>
                 <h3 className={`text-sm font-bold mb-4 uppercase tracking-wider ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
                   Contents
                 </h3>
