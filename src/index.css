@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Global link styles - burnt orange */
+a {
+  color: rgba(191, 87, 0, 1);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
