@@ -111,10 +111,10 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
           <div className="flex-1">
             <div className={`text-base ${darkMode ? 'text-gray-100' : 'text-gray-900'}`} style={{ lineHeight: '1.5', fontWeight: '500' }}>
               <p className="mb-4">
-                I am a final year CS PhD at <a href="https://www.utexas.edu/">UT Austin</a> advised by <a href="https://www.cs.utexas.edu/~inderjit/" className=''>Prof. Inderjit Dhillon</a>.
+                I am final year PhD student at <a href="https://www.utexas.edu/">UT Austin</a> advised by <a href="https://www.cs.utexas.edu/~inderjit/" className=''>Prof. Inderjit Dhillon</a>.
               </p>
               <p className="mb-4">
-              My research focuses on <span class="">End-to-end Information Retrieval</span> and <span class="">Efficient Large Language Models</span>. During my PhD, I have worked closely with <a href="https://www.prateekjain.org/">Dr. Prateek Jain</a> and <a href="https://www.felixyu.org/">Dr. Felix Yu</a> at <a href="https://deepmind.google/">Google Deepmind</a>.
+              My research focuses on <span class="">End-to-end Information Retrieval</span> and <span class="">Efficient Large Language Models (LLMs)</span>. During my PhD, I have worked closely with <a href="https://www.prateekjain.org/">Dr. Prateek Jain</a> and <a href="https://www.felixyu.org/">Dr. Felix Yu</a> at <a href="https://deepmind.google/">Google Deepmind</a>.
               </p>
               <p className='mb-4'>
               Before PhD, I spent 2 years at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/">MSR India</a> working with <a href="http://manikvarma.org/">Dr. Manik Varma</a>. I completed my undergraduate with Honours in CS from <a href="https://www.iitb.ac.in/">IIT Bombay</a>.
