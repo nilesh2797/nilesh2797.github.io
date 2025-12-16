@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useParams } from 'react-router-dom';
-import { Mail, Moon, Sun, ExternalLink, ArrowLeft, X, GraduationCap, Github } from 'lucide-react';
+import { Mail, Moon, Sun, ExternalLink, ArrowLeft, X, GraduationCap, Github, Linkedin } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
@@ -137,6 +137,7 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
               <SocialIcon icon={<Mail size={20} />} href="mailto:nilesh@cs.utexas.edu" label="Email" />
               <SocialIcon icon={<X size={20} />} href="https://x.com/nileshgupta2797" label="Twitter" />
               <SocialIcon icon={<GraduationCap size={20} />} href="https://scholar.google.com/citations?user=WDF2ldUAAAAJ&hl=en" label="Scholar" />
+              <SocialIcon icon={<Linkedin size={20} />} href="https://www.linkedin.com/in/nilesh-gupta-iitb/" label="Linkedin" />
               <SocialIcon icon={<Github size={20} />} href="https://github.com/nilesh2797" label="Github" />
             </div>
           </div>
