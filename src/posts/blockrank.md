@@ -4,7 +4,7 @@ title: "Scalable In-context Ranking with Generative Models"
 date: "2025-10-08"
 venue: "NeurIPS 2025"
 description: ""
-summary: "BlockRank imposes blockwise sparse attention and leverages query-token attention signals for efficient in-context ranking"
+summary: "This work proposes BlockRank, a specialized architecture for scalable LLM-based Reranking and RAG. By leveraging inter-document block sparsity in attention, BlockRank achieves linear attention complexity without any compromise in effectiveness and zero-shot generalization."
 links:
   - text: "Paper"
     url: "https://arxiv.org/abs/2510.05396"

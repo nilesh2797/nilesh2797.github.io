@@ -1,7 +1,7 @@
 ---
 author: ["Atula Tejaswi*", "<u>Nilesh Gupta</u>*", "Eunsol Choi"]
 title: "Exploring Design Choices for Building Language-Specific LLMs"
-date: "2025-02-02"
+date: "2024-11-12"
 venue: "EMNLP 2024"
 description: ""
 summary: "This paper examines how adapting LLMs with vocabulary extension and pretraining improves efficiency and performance across languages"

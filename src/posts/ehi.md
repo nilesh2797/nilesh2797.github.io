@@ -4,7 +4,7 @@ title: "EHI: End-to-end Learning of Hierarchical Index for Efficient Dense Retri
 date: "2024-08-01"
 venue: "TMLR 2024"
 description: "End-to-End Hierarchical Indexing (EHI) improves dense retrieval by jointly learning embeddings and ANN structure, outperforming traditional two-stage methods through integrated optimization and path-aware tree indexing."
-summary: ""
+summary: "This work proposes End-to-End Hierarchical Indexing (EHI), a method that jointly learns embeddings and ANN structure for dense retrieval, achieving superior performance over traditional two-stage approaches."
 links:
   - text: "Paper"
     url: "https://arxiv.org/pdf/2310.08891"

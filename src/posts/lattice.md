@@ -4,7 +4,7 @@ title: "LLM-guided Hierarchical Retrieval"
 date: "2025-10-16"
 venue: "Arxiv"
 description: ""
-summary: "LATTICE turns retrieval into an LLM-driven navigation problem over a semantic scaffold for computational tractability needed for large corpora"
+summary: "This work proposes a search framework where offline compute is spent to build an LLM navigable search index and the LLM is used to navigate the search index at test time using its internal reasoning and understanding of the context."
 links:
   - text: "Paper"
     url: "https://arxiv.org/abs/2510.13217"
@@ -30,7 +30,22 @@ draft: false
 
 ## Overview
 
-LATTICE proposes an *LLM-native retrieval* paradigm that combines the efficiency of hierarchical search with the reasoning power of modern large language models. Instead of relying on a static retriever + reranker pipeline or attempting to place a large corpus directly in an LLM context, LATTICE organizes the corpus into a semantic tree and uses an LLM as an *active search agent* that navigates that tree. This design yields logarithmic search complexity while preserving the LLM’s ability to perform nuanced, multi-step relevance judgments for complex, reasoning-heavy queries. Below we provide a sample interactive visualization of LATTICE search.
+### What are we proposing and why is it relevant?
+This work proposes a search framework where offline compute is spent to build an LLM navigable search index and the LLM is used to navigate the search index at test time using its internal reasoning and understanding of the context. 
+
+> To the best of our knowledge, our work is one of the first to show feasibility and strong results for such a framework at the full scale of retrieval from a large corpus (~100K for BRIGHT and ~2.6M for NQ results). 
+
+It shows promise of generative LLMs to perform end-to-end retrieval by themselves i.e. without relying on external search tools. Currently this work can have applications in two scenarios: 
+1. deep search scenarios i.e. complex tasks where high accuracy and reasoning depth are prioritized over sub-second latency; 
+2. using it in an offline setting to generate distillation data for training faster and accurate search models.
+
+### Key contributions
+- We propose methods to build an LLM navigable search index in an unsupervised setting. Although the bottom-up tree construction is similar to existing techniques in the literature (such as RAPTOR), the top-down approach which uses the LLM itself to organize the corpus at multiple levels of granularity is novel to the best of our knowledge and is shown to perform better when dealing with independent documents in the corpus.
+- We identify challenges with LLM based navigation over a semantic search index i.e. noisy and context dependent judgements and propose a robust navigation algorithm that explores nodes based on path-based scores (instead of local scores) and adds cross branch comparisons to calibrate LLM judgements.
+
+### Comparison to existing methods
+- Standard retrieve-then-rerank methods hit a performance ceiling because they are bounded by the initial recall of embedding-based retrieval. In contrast, our results show that LATTICE breaks this ceiling - scaling more effectively with test-time compute (Figure 3).
+- Current agentic systems operate in an unconstrained action space, generating queries to probe an opaque search tool - essentially guessing keywords to find a local neighborhood of documents, LATTICE allows the LLM to get a global view of the corpus and condition its decisions of what to explore based on what is available in the corpus which is desirable when the prior knowledge about what to look for is not clear.
 
 ### Interactive sample prediction
 
@@ -43,20 +58,6 @@ Interactive Plotly view of a LATTICE search over a semantic tree: the tree root 
 - **Hover callouts** show the LLM’s local score, calibrated latent score, child scores, and the model’s reasoning (chain-of-thought) used when expanding that node.  
 
 Use the visualization to quickly see which branches the agent prioritized, inspect calibration effects (local vs. calibrated scores), and read the LLM’s justification for traversal decisions.
-
-### Key ideas
-- **Semantic tree index** → The corpus is structured offline into a hierarchy of internal nodes (LLM-generated summaries) and leaf nodes (documents). This tree constrains the search space and makes traversal efficient.
-- **LLM-guided traversal** → At query time, a search LLM reasons and scores small candidate slates of sibling nodes along with some calibration nodes. These local judgments drive a best-first traversal (beam expansion) instead of flat reranking.
-- **Global calibration** → LLM scores are context-dependent and noisy, LATTICE estimates *latent* relevance scores and aggregates it into a *path relevance* score (smoothed via a momentum α) so nodes across branches are comparable.
-- **Two tree construction strategies:**
-  1. **Bottom-up** — agglomerative clustering and LLM summarization (good when passages belong to larger source documents);
-  2. **Top-down** — LLM-driven divisive clustering using multi-level summaries (better when documents are conceptually distinct).
-
-### Why it matters
-- **Efficiency** → Traversing a semantic tree can require fewer LLM evaluations than reranking long flat lists; search cost grows roughly logarithmically with corpus size.
-- **Reasoning-aware retrieval** → The search LLM's in-context reasoning allows retrieval to capture deeper, multi-step relevance signals that simple embeddings or keyword matchers miss.
-- **Distillation potential** → The LATTICE framework can be used to generate high-quality training data for training smaller retrievers.
-- **Interpretable retrieval** → The tree structure and LLM reasoning traces provide insights into why certain documents were retrieved.
 
 ## Results
 ### Ranking results on BRIGHT
