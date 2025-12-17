@@ -111,13 +111,13 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
           <div className="flex-1">
             <div className={`text-sm ${darkMode ? 'text-gray-100' : 'text-gray-900'}`} style={{ lineHeight: '1.8', fontWeight: '500' }}>
               <p className="mb-4">
-                I am final year CS PhD student at <a href="https://www.utexas.edu/">UT Austin</a> advised by <a href="https://www.cs.utexas.edu/~inderjit/" className=''>Prof. Inderjit Dhillon</a>.
+                I am final year CS PhD student at <a href="https://www.utexas.edu/">UT Austin</a> advised by <a href="https://www.cs.utexas.edu/~inderjit/" className=''>Inderjit Dhillon</a>.
               </p>
               <p className="mb-4">
-              My research focuses on <span class="">End-to-end Information Retrieval</span> and <span class="">Efficient Large Language Models (LLMs)</span>. During my PhD, I have worked closely with <a href="https://www.prateekjain.org/">Dr. Prateek Jain</a> and <a href="https://www.felixyu.org/">Dr. Felix Yu</a> at <a href="https://deepmind.google/">Google Deepmind</a>.
+              My research focuses on <span class="">End-to-end Information Retrieval</span> and <span class="">Efficient Large Language Models (LLMs)</span>. During my PhD, I have worked closely with <a href="https://www.prateekjain.org/">Prateek Jain</a>, <a href="https://www.felixyu.org/">Felix Yu</a> and <a href="https://web.cs.ucla.edu/~chohsieh/">Cho-jui Hsieh</a> across <a href="https://research.google/">Google Research</a> & <a href="https://deepmind.google/">Deepmind</a>.
               </p>
               <p className='mb-4'>
-              Before PhD, I spent 2 years at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/">MSR India</a> working with <a href="http://manikvarma.org/">Dr. Manik Varma</a>. I completed my undergraduate with Honours in CS from <a href="https://www.iitb.ac.in/">IIT Bombay</a>.
+              Before PhD, I spent 2 years at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/">MSR India</a> working with <a href="http://manikvarma.org/">Manik Varma</a>. I completed my undergraduate with Honours in CS from <a href="https://www.iitb.ac.in/">IIT Bombay</a>.
               </p>
             </div>
             <div className={`p-5 rounded-lg border-l-4 text-sm font-medium leading-6`} style={{
