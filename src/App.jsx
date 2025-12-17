@@ -168,7 +168,7 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
                 Nov 25
               </span>
               <span className={`text-sm font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
-                Released our work on <a href="/publications/lattice/">LLM-guided hierarchical retrieval</a>, gets 3rd place on <a href="https://brightbenchmark.github.io/">BRIGHT</a> leaderboard
+                Released <a href="/publications/lattice/">LLM-guided hierarchical retrieval</a>, gets 3rd place on <a href="https://brightbenchmark.github.io/">BRIGHT</a> leaderboard without any fine-tuning!
               </span>
             </li>
             <li className="flex gap-4 items-baseline">
