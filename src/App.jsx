@@ -111,7 +111,7 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
           <div className="flex-1">
             <div className={`text-sm ${darkMode ? 'text-gray-100' : 'text-gray-900'}`} style={{ lineHeight: '1.8', fontWeight: '500' }}>
               <p className="mb-4">
-                I am final year CS PhD student at <a href="https://www.utexas.edu/">UT Austin</a> advised by <a href="https://www.cs.utexas.edu/~inderjit/" className=''>Inderjit Dhillon</a>.
+                I am a final year CS PhD student at <a href="https://www.utexas.edu/">UT Austin</a> advised by <a href="https://www.cs.utexas.edu/~inderjit/" className=''>Inderjit Dhillon</a>.
               </p>
               <p className="mb-4">
               My research focuses on <span class="">End-to-end Information Retrieval</span> and <span class="">Efficient Large Language Models (LLMs)</span>. During my PhD, I have worked closely with <a href="https://www.prateekjain.org/">Prateek Jain</a>, <a href="https://www.felixyu.org/">Felix Yu</a> and <a href="https://web.cs.ucla.edu/~chohsieh/">Cho-jui Hsieh</a> across <a href="https://research.google/">Google Research</a> & <a href="https://deepmind.google/">Deepmind</a>.
