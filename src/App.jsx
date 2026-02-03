@@ -125,7 +125,7 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
           borderColor: 'rgba(191, 87, 0, 1)',
           color: darkMode ? 'rgba(191, 87, 0, 0.8)' : 'rgb(71, 85, 105)'
         }}>
-          I am on the industry job market next year (starting summer). Please <a href="mailto:nilesh@cs.utexas.edu" class="underline">reach out</a> if you think I am a good fit!
+          I am on the industry job market this year (tentatively starting summer). Please <a href="mailto:nilesh@cs.utexas.edu" class="underline">reach out</a> if you think I am a good fit!
         </div>
           </div>
 
