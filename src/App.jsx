@@ -145,6 +145,30 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
         </h2>
         <div className={`max-h-48 overflow-y-auto pr-2 ${darkMode ? '[&::-webkit-scrollbar-thumb]:bg-gray-700 [&::-webkit-scrollbar-track]:bg-gray-800' : '[&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-track]:bg-gray-100'} [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full`}>
           <ul className="space-y-5">
+            <li className="flex gap-4 items-baseline">
+              <span className={`text-[11px] font-bold tracking-wider px-2 py-1 rounded-md ${darkMode ? 'bg-red-900/30 text-red-300' : 'bg-red-50 text-red-700'} uppercase`}>
+                Aug 26
+              </span>
+              <span className={`text-sm font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
+                HSEARCH-R1: Learning Compact Value Models for LLM-guided Hierarchical Search via RL accepted at EMNLP 2026 (Main Conference)
+              </span>
+            </li>
+            <li className="flex gap-4 items-baseline">
+              <span className={`text-[11px] font-bold tracking-wider px-2 py-1 rounded-md ${darkMode ? 'bg-red-900/30 text-red-300' : 'bg-red-50 text-red-700'} uppercase`}>
+                Aug 26
+              </span>
+              <span className={`text-sm font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
+                <a href="/publications/lattice/">LLM-guided Hierarchical Search</a> accepted at TMLR!
+              </span>
+            </li>
+            <li className="flex gap-4 items-baseline">
+              <span className={`text-[11px] font-bold tracking-wider px-2 py-1 rounded-md ${darkMode ? 'bg-red-900/30 text-red-300' : 'bg-red-50 text-red-700'} uppercase`}>
+                Jun 26
+              </span>
+              <span className={`text-sm font-medium leading-6 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
+                Started as Member of Technical Staff at <a href="https://mirendil.com">Mirendil</a>
+              </span>
+            </li>
           <li className="flex gap-4 items-baseline">
               <span className={`text-[11px] font-bold tracking-wider px-2 py-1 rounded-md ${darkMode ? 'bg-red-900/30 text-red-300' : 'bg-red-50 text-red-700'} uppercase`}>
                 Nov 25

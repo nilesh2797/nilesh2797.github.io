@@ -1,8 +1,8 @@
 ---
 author: ["<u>Nilesh Gupta</u>", "Wei-Cheng Chang", "Ngot Bui", "Cho-Jui Hsieh", "Inderjit S. Dhillon"]
-title: "LLM-guided Hierarchical Retrieval"
+title: "LLM-guided Hierarchical Search for End-to-end Reasoning Intensive Retrieval"
 date: "2025-10-16"
-venue: "Arxiv"
+venue: "TMLR 2026"
 description: ""
 summary: "This work proposes a search framework where offline compute is spent to build an LLM navigable search index and the LLM is used to navigate the search index at test time using its internal reasoning and understanding of the context."
 links:
