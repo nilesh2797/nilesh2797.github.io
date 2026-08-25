@@ -111,22 +111,15 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
           <div className="flex-1">
             <div className={`text-sm ${darkMode ? 'text-gray-100' : 'text-gray-900'}`} style={{ lineHeight: '1.8', fontWeight: '500' }}>
               <p className="mb-4">
-                I am a final year CS PhD student at <a href="https://www.utexas.edu/">UT Austin</a> advised by <a href="https://www.cs.utexas.edu/~inderjit/" className=''>Inderjit Dhillon</a>.
+                I am a Member of Technical Staff at <a href="https://mirendil.com">Mirendil</a>. Before that, I did my CS PhD at <a href="https://www.utexas.edu/">UT Austin</a> advised by <a href="https://www.cs.utexas.edu/~inderjit/" className=''>Inderjit Dhillon</a>.
               </p>
               <p className="mb-4">
               My research focuses on <span class="">End-to-end Information Retrieval</span> and <span class="">Efficient Large Language Models (LLMs)</span>. During my PhD, I have worked closely with <a href="https://www.prateekjain.org/">Prateek Jain</a>, <a href="https://www.felixyu.org/">Felix Yu</a> and <a href="https://web.cs.ucla.edu/~chohsieh/">Cho-jui Hsieh</a> across <a href="https://research.google/">Google Research</a> & <a href="https://deepmind.google/">Deepmind</a>.
               </p>
               <p className='mb-4'>
-              Before PhD, I spent 2 years at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/">MSR India</a> working with <a href="http://manikvarma.org/">Manik Varma</a>. I completed my undergraduate with Honours in CS from <a href="https://www.iitb.ac.in/">IIT Bombay</a>.
+              Before my PhD, I spent 2 years at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/">MSR India</a> working with <a href="http://manikvarma.org/">Manik Varma</a>. I completed my undergraduate with Honours in CS from <a href="https://www.iitb.ac.in/">IIT Bombay</a>.
               </p>
             </div>
-            <div className={`p-5 rounded-lg border-l-4 text-sm font-medium leading-6`} style={{
-          backgroundColor: darkMode ? 'rgba(191, 87, 0, 0.1)' : 'rgba(191, 87, 0, 0.08)',
-          borderColor: 'rgba(191, 87, 0, 1)',
-          color: darkMode ? 'rgba(191, 87, 0, 0.8)' : 'rgb(71, 85, 105)'
-        }}>
-          I am on the industry job market this year (tentatively starting summer). Please <a href="mailto:nilesh@cs.utexas.edu" class="underline">reach out</a> if you think I am a good fit!
-        </div>
           </div>
 
           <div className="flex-shrink-0 flex flex-col items-center gap-6 self-center md:self-start">
@@ -142,9 +135,6 @@ function HomePage({ darkMode, publications, loading, toggleTheme }) {
             </div>
           </div>
         </div>
-
-        {/* Job market announcement - full width */}
-        
       </section>
 
       {/* News Section */}
