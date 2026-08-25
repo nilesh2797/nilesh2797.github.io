@@ -358,40 +358,48 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
               </div>
 
               <article>
-          <header className="mb-12 text-center flex flex-col">
-            <h1 className={`text-3xl md:text-4xl font-semibold mb-4 leading-tight ${darkMode ? 'text-white' : 'text-slate-900'}`} style={{ fontFamily: "'Libre Franklin', sans-serif" }}>
+          <header className="max-w-[44rem] mx-auto mb-20 md:mb-24 text-center flex flex-col">
+            <h1 className={`text-3xl md:text-4xl font-semibold mb-6 leading-tight ${darkMode ? 'text-white' : 'text-slate-900'}`} style={{ fontFamily: "'Libre Franklin', sans-serif", textWrap: 'balance' }}>
               {currentPaper.title}
             </h1>
 
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
-              {currentPaper.venue && (
-                  <span className={`px-3 py-1 rounded text-xs font-bold leading-relaxed tracking-widest uppercase border ${darkMode ? 'border-gray-700 bg-gray-800 text-gray-300' : 'border-gray-200 bg-gray-50 text-gray-500'}`}>
-              {currentPaper.venue}
-                  </span>
-                )}
-              <div className={`text-sm font-medium leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                {currentPaper.authors && currentPaper.authors.map((author, index) => (
-            <span key={index}>
-              <span dangerouslySetInnerHTML={{ __html: author }} />
-              {index < currentPaper.authors.length - 1 ? ", " : ""}
-            </span>
-                ))}
-              </div>
-            </div>
-
-            <div className="flex flex-wrap items-center justify-center gap-8">
-              {currentPaper.links && currentPaper.links.map((link) => (
-                <a
-            key={link.label}
-            href={link.href}
-            className="text-medium font-bold underline flex items-center gap-1.5 hover:underline underline-offset-4 transition-colors"
-            style={{ color: 'rgba(191, 87, 0, 1)' }}
-                >
-            <ExternalLink size={18} />
-            {link.label}
-                </a>
+            <div className={`text-sm font-medium leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+              {currentPaper.authors && currentPaper.authors.map((author, index) => (
+                <span key={index}>
+                  <span dangerouslySetInnerHTML={{ __html: author }} />
+                  {index < currentPaper.authors.length - 1 ? ", " : ""}
+                </span>
               ))}
             </div>
+
+            <div className="flex flex-wrap items-center justify-center gap-3 mt-4">
+              {currentPaper.venue && (
+                <span className={`px-3 py-1 rounded text-xs font-bold leading-relaxed tracking-widest uppercase border ${darkMode ? 'border-gray-700 bg-gray-800 text-gray-300' : 'border-gray-200 bg-gray-50 text-gray-500'}`}>
+                  {currentPaper.venue}
+                </span>
+              )}
+              {currentPaper.date && (
+                <span className={`text-sm font-medium ${darkMode ? 'text-gray-500' : 'text-gray-500'}`}>
+                  {formatDate(currentPaper.date)}
+                </span>
+              )}
+            </div>
+
+            {currentPaper.links && currentPaper.links.length > 0 && (
+              <div className="flex flex-wrap items-center justify-center gap-x-7 gap-y-3 mt-9">
+                {currentPaper.links.map((link) => (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    className="text-medium font-bold underline flex items-center gap-1.5 hover:underline underline-offset-4 transition-colors"
+                    style={{ color: 'rgba(191, 87, 0, 1)' }}
+                  >
+                    <ExternalLink size={18} />
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            )}
           </header>
 
           {/* <hr className={`border-t mb-12 ${darkMode ? 'border-gray-800' : 'border-gray-100'}`} /> */}
@@ -400,13 +408,13 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
         {headings.length > 0 && (
           <>
             {/* Mobile: Collapsible section */}
-            <aside className="block lg:hidden mb-8">
+            <aside className="block xl:hidden mb-12">
               <details className={`${darkMode ? 'bg-gray-800/50' : 'bg-gray-50'} rounded-lg p-4`}>
                 <summary className={`text-sm font-bold uppercase tracking-wider cursor-pointer ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
                   Contents
                 </summary>
                 <nav className="mt-4">
-                  <ul className="space-y-2 text-sm">
+                  <ul className="space-y-0.5 text-[13px]">
                     {headings.map((heading) => (
                       <li key={heading.id} style={{ paddingLeft: `${(heading.level - 2) * 12}px` }}>
                         <a
@@ -415,12 +423,14 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
                             e.preventDefault();
                             document.getElementById(heading.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
                           }}
-                          className={`block py-1 transition-colors border-l-2 pl-3 ${
+                          className={`group/toc relative block py-1 pl-5 leading-snug transition-all
+                            before:content-[''] before:absolute before:left-0 before:top-[11px] before:rounded-full before:transition-all
+                            ${
                             activeSection === heading.id
-                              ? 'border-[rgba(191,87,0,1)] font-medium opacity-100'
+                              ? "font-medium opacity-100 before:w-[7px] before:h-[7px] before:-ml-[1.5px] before:bg-[rgba(191,87,0,1)]"
                               : darkMode
-                              ? 'border-gray-700 hover:opacity-70 hover:border-gray-500'
-                              : 'border-gray-200 hover:opacity-70 hover:border-gray-400'
+                              ? 'hover:opacity-70 before:w-1 before:h-1 before:bg-gray-600 hover:before:bg-gray-400'
+                              : 'hover:opacity-70 before:w-1 before:h-1 before:bg-gray-300 hover:before:bg-gray-400'
                           }`}
                         >
                           {heading.text}
@@ -434,16 +444,16 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
           </>
         )}
 
-        <div className="relative">
+        <div className="relative max-w-[44rem] mx-auto">
           {/* Desktop: Positioned in left margin */}
           {headings.length > 0 && (
-            <aside className="hidden lg:block fixed left-0 w-56 top-24" style={{ marginLeft: 'calc((100vw - 1024px) / 2 - 200px)' }}>
-              <div>
+            <aside className="hidden xl:block absolute top-0 right-full h-full w-60 pr-10">
+              <div className="sticky top-24">
                 <h3 className={`text-sm font-bold mb-4 uppercase tracking-wider ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
                   Contents
                 </h3>
                 <nav>
-                  <ul className="space-y-2 text-sm">
+                  <ul className="space-y-0.5 text-[13px]">
                     {headings.map((heading) => (
                       <li key={heading.id} style={{ paddingLeft: `${(heading.level - 2) * 12}px` }}>
                         <a
@@ -452,12 +462,14 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
                             e.preventDefault();
                             document.getElementById(heading.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
                           }}
-                          className={`block py-1 transition-colors border-l-2 pl-3 ${
+                          className={`group/toc relative block py-1 pl-5 leading-snug transition-all
+                            before:content-[''] before:absolute before:left-0 before:top-[11px] before:rounded-full before:transition-all
+                            ${
                             activeSection === heading.id
-                              ? 'border-[rgba(191,87,0,1)] font-medium opacity-100'
+                              ? "font-medium opacity-100 before:w-[7px] before:h-[7px] before:-ml-[1.5px] before:bg-[rgba(191,87,0,1)]"
                               : darkMode
-                              ? 'border-gray-700 hover:opacity-70 hover:border-gray-500'
-                              : 'border-gray-200 hover:opacity-70 hover:border-gray-400'
+                              ? 'hover:opacity-70 before:w-1 before:h-1 before:bg-gray-600 hover:before:bg-gray-400'
+                              : 'hover:opacity-70 before:w-1 before:h-1 before:bg-gray-300 hover:before:bg-gray-400'
                           }`}
                         >
                           {heading.text}
@@ -471,19 +483,24 @@ function PublicationPage({ darkMode, publications, toggleTheme }) {
           )}
 
           <div className={`
-            prose max-w-3xl mx-auto
+            prose w-full max-w-none
             ${darkMode ? 'prose-invert prose-headings:text-gray-100 prose-p:text-gray-300' : 'prose-slate prose-headings:text-slate-900 prose-p:text-slate-700'}
             prose-base
-            prose-headings:font-bold prose-headings:scroll-mt-24
+            prose-headings:font-bold prose-headings:scroll-mt-28
             [&_h1]:font-['Libre Franklin'] [&_h2]:font-['Libre Franklin'] [&_h3]:font-['Libre Franklin'] [&_h4]:font-['Libre Franklin'] [&_h5]:font-['Libre Franklin'] [&_h6]:font-['Libre Franklin']
-            prose-p:leading-7 prose-p:mb-5 prose-p:font-medium
-            prose-li:font-medium
+            prose-h2:mt-16 prose-h2:mb-5
+            prose-h3:mt-12 prose-h3:mb-3
+            prose-h4:mt-9 prose-h4:mb-2
+            prose-p:leading-[1.8] prose-p:mb-6 prose-p:font-medium
+            prose-li:font-medium prose-li:leading-[1.8] prose-li:my-1.5
+            prose-blockquote:pl-6 prose-blockquote:py-1 prose-blockquote:my-8
+            prose-hr:my-16
             prose-a:no-underline hover:prose-a:underline
             prose-code:text-sm prose-code:px-1 prose-code:py-0.5 prose-code:rounded
             ${darkMode ? 'prose-code:bg-gray-800 prose-code:text-gray-200' : 'prose-code:bg-gray-100 prose-code:text-gray-800'}
             ${darkMode ? 'prose-pre:bg-gray-800 prose-pre:text-gray-200 prose-pre:border-gray-700' : 'prose-pre:bg-gray-100 prose-pre:text-gray-800 prose-pre:border-gray-300'}
             prose-pre:border
-            prose-img:rounded-lg
+            prose-img:rounded-lg prose-img:my-12
             prose-ul:list-disc prose-ol:list-decimal
             prose-strong:font-bold prose-strong:text-current
             prose-blockquote:italic
@@ -608,6 +625,17 @@ const extractHeadings = (markdown) => {
 };
 
 // --- HELPER: Robust Frontmatter Parser ---
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+// Parse YYYY-MM-DD by hand: new Date('2025-10-16') is treated as UTC and shows
+// the previous day in negative-offset timezones.
+const formatDate = (raw) => {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(raw || '');
+  if (!m) return raw;
+  const [, year, month, day] = m;
+  return `${MONTHS[parseInt(month, 10) - 1]} ${parseInt(day, 10)}, ${year}`;
+};
+
 const parseFrontmatter = (text) => {
   const match = text.match(/^---\s*\n([\s\S]*?)\n---/);
   if (!match) return { metadata: {}, content: text };
